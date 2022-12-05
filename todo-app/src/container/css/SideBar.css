@@ -3,9 +3,34 @@
     grid-template-columns: 0.2fr 1fr 0.1fr;
     gap: 1rem;
 }
-.svg {
+.large, .Sidebar {
+    height: 100vh;
+    width: 100vh;
+    min-width: 100%;
+}
+.Sidebar, .collapsed {
+    width: 80px;
+    min-width: 80px;
+}
+.image, img {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.click, button {
+    cursor: pointer;
+    margin-top: 5rem;
     display: grid;
-    align-items: center;
+    justify-content: center;
+}
+.closeMenu {
+    color: #000;
+    z-index: 9999;
+    line-height: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
 }
 .kanban {
     display: flex;

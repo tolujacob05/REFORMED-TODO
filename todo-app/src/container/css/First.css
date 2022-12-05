@@ -1,10 +1,19 @@
+
 .container {
     display: grid;
-    grid-template-columns: 0.8fr 0.8fr 2fr;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: 0.4fr 0.4fr 1fr;
+    /*align-items: center;   */
+    position: relative;
+    top: -42rem;
+    margin-left: 20rem;
 }
-.input:hover {
+.holder {
+    border: 1px solid black;
+    height: 10vh;
+    width: 30vh;
+    border-radius: 20px;
+}
+/*.input:hover {
     background: black;
 }
 .input {
@@ -15,7 +24,7 @@
 ::placeholder {
     padding: 1rem;
     margin: 1rem;
-}
+}*/
 .todo {
     display: flex;
     gap: 0.5rem;

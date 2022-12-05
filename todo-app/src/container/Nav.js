@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import './css/Nav.css';
 import Modal from '@material-ui/core/Modal';
 import Pop2 from './Pop2'
@@ -45,4 +45,4 @@ const Nav = () => {
     )
 }
 
-export default Nav;
+export default Nav;*/

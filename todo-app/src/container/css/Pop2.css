@@ -1,0 +1,114 @@
+.whole {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.task {
+    display: grid;
+    border: 2px solid rgb(48, 46, 46);
+    height: 90vh;
+    
+    margin: 3rem;
+    background: rgb(55, 54, 54);
+    margin: 1rem;
+    padding: 1rem;
+}
+.do h1 {
+    color: white;
+    font-family: sans-serif;
+}
+.title {
+    position: relative;
+    top: -2rem;
+}
+.title h6 {
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.dif {
+    position: relative;
+    top: -1.5rem;
+    width: 50vh;
+    height: 4vh;
+    border-radius: 10px;
+}
+.description {
+    position: relative;
+    top: -4.5rem;
+}
+.description h6 {
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.describe {
+    position: relative;
+    top: -1.5rem;
+    width: 58vh;
+    height: 13vh;
+    border-radius: 10px;
+}
+.sub-task {
+    position: relative;
+    top: -6.5rem;
+}
+.sub-task h6 {
+    color: rgb(118, 116, 116);
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.diff {
+    display: grid;
+    gap: 1rem;
+    position: relative;
+    top: -1.5rem;
+    width: 50vh;
+    height: 4vh;
+    border-radius: 10px;
+}
+.sub {
+    border: 2px solid white;
+    background: white;
+    position: relative;
+    top: -6.5rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    height: 6vh;
+}
+.sub h5 {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: rgb(129, 22, 229);
+}
+.status {
+    position: relative;
+    top: -6.5rem;
+}
+.status h6 {
+    color: rgb(118, 116, 116);
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.work {
+    position: relative;
+    top: -4rem;
+    border: 2px solid rgb(129, 22, 229);
+    background: rgb(129, 22, 229);
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    height: 6vh;
+}
+.work h5 {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white;
+}
